@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #023f8a;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: 100px;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .input{
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid #fff;
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            margin-top: 20px;
+        }
+
+        .button{
+            width: 100px;
+            height: 40px;
+            background-color: #0359c2;
+            border-radius: 5px;
+            border: 1px solid #fff;
+            font-size: 20px;
+            color: #fff;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        small{
+            color: #fff;
+            font-size: 20px;
+        }
+    </style>
+    <title>WEB Serial Arduino</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>WEB Serial Arduino</h1>
+        <form method="POST" action="/kirim">
+            <input class="input" type="text" name="message" placeholder="Pesan...">
+            <input class="button" type="submit" value="Send">
+        </form>
+        <br><br>
+        <small>By Ajang Rahmat - Kelas Robot</small>
+
+    </div>
+
+</body>
+
+</html>
